@@ -1,0 +1,129 @@
+body {
+  background: #0f172a;
+  font-family: "Inter", sans-serif;
+}
+
+/* Container */
+.parent {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 30px;
+}
+
+/* Card */
+.card {
+  width: 300px;
+  padding: 20px;
+  background: #fff;
+  border-radius: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  transition: 0.3s ease;
+  cursor: pointer;
+}
+
+.card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+}
+
+/* Top Section */
+.card-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.company {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.company img {
+  width: 45px;
+  height: 45px;
+  border-radius: 10px;
+  object-fit: cover;
+}
+
+.company h3 {
+  font-size: 15px;
+}
+
+.company span {
+  font-size: 12px;
+  color: gray;
+}
+
+/* Save Button */
+.save-btn {
+  border: none;
+  background: #f1f5f9;
+  padding: 6px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.save-btn:hover {
+  background: #e2e8f0;
+}
+
+/* Center */
+.card-center h2 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.tags {
+  display: flex;
+  gap: 8px;
+}
+
+.tags span {
+  font-size: 12px;
+  padding: 4px 10px;
+  background: #e0f2fe;
+  border-radius: 20px;
+  color: #0369a1;
+}
+
+/* Bottom */
+.card-bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-top: 1px solid #eee;
+  padding-top: 15px;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+}
+
+.pay {
+  font-weight: bold;
+}
+
+.location {
+  font-size: 12px;
+  color: gray;
+}
+
+/* Apply Button */
+.apply-btn {
+  background: #2563eb;
+  color: white;
+  border: none;
+  padding: 8px 14px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.apply-btn:hover {
+  background: #1d4ed8;
+}
