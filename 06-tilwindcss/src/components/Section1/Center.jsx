@@ -6,7 +6,7 @@ const Center = (props) => {
   return (
     <div className='flex flex-row px-10  py-18 h-[90vh] gap-10'>
         <LeftText />
-        <ImageContainer data ={props.data}/>
+        <ImageContaner data ={props.data}/>
     </div>
   )
 }
